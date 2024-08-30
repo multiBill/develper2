@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import joblib
 
-model = joblib.load('mlpipe1000.joblib')
+model = joblib.load('xmlpipe1000.joblib')
 st.title('Salary Prediction in 2024')
 st.write("""### We need some information to predict the salary""")
 
